@@ -1,10 +1,9 @@
-function isPythagorean(side1, side2, side3) {
-    
+function compareOnlyAlphabet(str1, str2) {
 
-    pow1 = side1 * side1;
-    pow2 = side2 ** 2;
-    pow3 = Math.pow(side3, 2);
+  resultA = str1.toUpperCase();
+  resultB = str2.toUpperCase();
 
-    return pow1 == (pow2 + pow3) || pow2 == (pow1 + pow3) || pow3 == (pow1 + pow2);
+  return resultA === resultB;
+
 
 }
