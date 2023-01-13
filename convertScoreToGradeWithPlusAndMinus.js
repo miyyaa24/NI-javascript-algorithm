@@ -12,7 +12,6 @@ function plusMinus (score) {
     return detail;
   }
   
-  
   function convertScoreToGradeWithPlusAndMinus(score) {
     let grade;
   
