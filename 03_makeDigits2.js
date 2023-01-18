@@ -7,4 +7,5 @@ function makeDigits2(num) {
       count++;
     }
     return String(result);
-  }  
+  
+} 
